@@ -263,10 +263,15 @@
                 }
             }
             .message
-                { position: relative; top: 200px;}
+                { 
+                 /*position: relative; top: 200px; height: 450px; */
+                 margin: auto;
+             }
             .message h1, 
             .message h3 {
                 text-align: center;
+                display: block;
+                
                 color: white;
                 font-size: 3.5em;
             }
@@ -290,9 +295,9 @@
     
     <body>
         <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
-        <div class="container">
+        <div class="container" style="position: relative;">
             <div class="message">
-            <div class="balloon">
+            <div class="balloon" style="position:absolute; margin: 200px auto 0;">
                 <div><span>☺</span>
                 </div>
                 <div><span>B</span>
@@ -306,10 +311,11 @@
                 <div><span>!</span>
                 </div>
             </div>
-
+            <div class="row">
              <h1>Anju Bahri</h1>
              <h3>May you be gifted with life’s biggest joys and never-ending bliss. After all, you yourself are a gift to earth, so you deserve the best. Happy birthday.</h3>
-</div>
+            </div>
+            </div>
         </div>
         <script>
             
